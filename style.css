@@ -3,6 +3,7 @@
     --yellow: hsl(71, 73%, 54%);
     --lightGray: hsl(204, 43%, 93%);
     --grayishBlue: hsl(218, 22%, 67%);
+    --white: hsl(0, 0%, 100%);
 }
 
 html {
@@ -18,12 +19,36 @@ body {
     font-family: 'Karla',
     sans-serif;
     line-height: 1.3;
-    color: var(--lightGray);
+    background-color: var(--lightGray);
+    color: var(--grayishBlue);
 }
 
+a {
+    text-decoration: none;
+}
 .price {
    
     @media only screen and (min-width: 62.5em) {
         display: grid;
     }
+}
+
+.community {
+    background: var(--white);
+}
+
+.community h2 {
+    font-size: 1.25rem;
+    color: var(--cyan);
+    font-weight: bold;
+}
+
+.community h3 {
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.community p {
+    font-size: 0.85rem;
+    line-height: 1.5;
 }
