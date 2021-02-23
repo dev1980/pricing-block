@@ -1,10 +1,12 @@
 # pricing-block
+- Simple pricing block created using HTML and CSS.
 
 ## Technologies used
 
 - HTML
 - CSS
 - Git
+- SASS
 
 ## Live Demo
 
